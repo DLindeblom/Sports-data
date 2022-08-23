@@ -309,93 +309,103 @@ const NHL = {
 
     Pacific: {
       "Flames": {        
-        city: "",
-        country: "",
+        city: "Calgary",
+        country: "Canada",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "Scotiabank Saddledome",
+          city: "Calgary, Alberta",
+          capacity: 19289
         },
-        founded: 0,
-        cups: 0,
-        cupYears: []},
+        founded: 1972,
+        cups: 1,
+        cupYears: [1989]
+      },
       "Oilers": {        
-        city: "",
-        country: "",
+        city: "Edmonton",
+        country: "Canada",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "Rogers Place",
+          city: "Edmonton, Alberta",
+          capacity: 18500
         },
-        founded: 0,
-        cups: 0,
-        cupYears: []},
+        founded: 1972,
+        formerly: ["Alberta Oilers"],
+        cups: 5,
+        cupYears: [1984, 1985, 1987, 1988, 1990]
+      },
       "Kings": {        
-        city: "",
-        country: "",
+        city: "Los Angeles",
+        country: "United States",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "Crypto.com Arena",
+          city: "Los Angeles, California",
+          capacity: 20000
         },
-        founded: 0,
-        cups: 0,
-        cupYears: []},
+        founded: 1966,
+        cups: 2,
+        cupYears: [2012, 2014]
+      },
       "Golden Knights": {        
-        city: "",
-        country: "",
+        city: "Vegas",
+        country: "United States",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "T-Mobile Arena",
+          city: "Las Vegas, Nevada",
+          capacity: 17500
         },
-        founded: 0,
+        founded: 2017,
         cups: 0,
-        cupYears: []},
+        cupYears: []
+      },
       "Canucks": {        
-        city: "",
-        country: "",
+        city: "Vancouver",
+        country: "Canada",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "Rogers Arena",
+          city: "Vancouver, British Columbia",
+          capacity: 18910
         },
-        founded: 0,
+        founded: 1945,
         cups: 0,
-        cupYears: []},
+        cupYears: []
+      },
       "Sharks": {        
-        city: "",
-        country: "",
+        city: "San Jose",
+        country: "United States",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "SAP Center at San Jose",
+          city: "San Jose, California",
+          capacity: 17562
         },
-        founded: 0,
+        founded: 1991,
         cups: 0,
-        cupYears: []},
+        cupYears: []
+      },
       "Ducks": {        
-        city: "",
-        country: "",
+        city: "Anaheim",
+        country: "United States",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "Honda Center",
+          city: "Anaheim,, California",
+          capacity: 18336
         },
-        founded: 0,
-        cups: 0,
-        cupYears: []},
+        founded: 1993,
+        formerly: ["Mighty Ducks of Anaheim"],
+        cups: 1,
+        cupYears: [2007]
+      },
       "Kraken": {        
-        city: "",
-        country: "",
+        city: "Seattle",
+        country: "United States",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "Climate Pledge Arena",
+          city: "Seattle, Washington",
+          capacity: 17459
         },
-        founded: 0,
+        founded: 2018,
         cups: 0,
-        cupYears: []}
+        cupYears: []
+      }
     }
   }
 }
