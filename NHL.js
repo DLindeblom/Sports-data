@@ -72,7 +72,7 @@ const NHL = [
     cupYears: [1980, 1981, 1982, 1983]
   },
   {
-    city: "Columbus Blue Jackets",
+    name: "Columbus Blue Jackets",
     division: "Metropolitan",
     conference: "Eastern",
     country: "United States",
@@ -101,7 +101,7 @@ const NHL = [
     cupYears: [1995, 2000, 2003]
   },
   {
-    city: "Philadelphia Flyers",
+    name: "Philadelphia Flyers",
     division: "Metropolitan",
     conference: "Eastern",
     country: "United States",
@@ -158,7 +158,7 @@ const NHL = [
     cupYears: [2004, 2020, 2021]
   },
   {
-    city: "Boston Bruins",
+    name: "Boston Bruins",
     division: "Atlantic",
     conference: "Eastern",
     country: "United States",
@@ -186,7 +186,7 @@ const NHL = [
     cupYears: []
   },
   {
-    city: "Detroit Red Wings",
+    name: "Detroit Red Wings",
     division: "Atlantic",
     conference: "Eastern",
     country: "United States",
