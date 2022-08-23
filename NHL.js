@@ -230,71 +230,81 @@ const NHL = {
         cupYears: []
       },
       "Blues": {        
-        city: "",
-        country: "",
+        city: "St. Louis",
+        country: "United States",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "Enterprise Center",
+          city: "St. Louis, Missouri",
+          capacity: 19260
         },
-        founded: 0,
-        cups: 0,
-        cupYears: []}, 
+        founded: 1967,
+        cups: 1,
+        cupYears: [2019]
+      }, 
       "Stars": {        
-        city: "",
-        country: "",
+        city: "Dallas",
+        country: "United States",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "American Airlines Center",
+          city: "Dallas, Texas",
+          capacity: 20000,
         },
-        founded: 0,
-        cups: 0,
-        cupYears: []},
+        founded: 1967,
+        formerly: ["Minnesota North Stars"],
+        cups: 1,
+        cupYears: [1999]
+      },
       "Predators": {        
-        city: "",
-        country: "",
+        city: "Nashville",
+        country: "United States",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "Bridgestone Arena",
+          city: "Nashville, Tennessee",
+          capacity: 19891,
         },
-        founded: 0,
+        founded: 1998,
         cups: 0,
-        cupYears: []},
+        cupYears: []
+      },
       "Jets": {        
-        city: "",
-        country: "",
+        city: "Winnipeg",
+        country: "Canada",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "Canada Life Centre",
+          city: "Winnipeg, Manitoba",
+          capacity: 15321
         },
-        founded: 0,
+        founded: 1999,
+        formerly: ["Atlanta Thrashers"],
         cups: 0,
-        cupYears: []},
+        cupYears: []
+      },
       "Blackhawks": {        
-        city: "",
-        country: "",
+        city: "Chicago",
+        country: "United States",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "United Center",
+          city: "Chicago, Illinois",
+          capacity: 23500,
         },
-        founded: 0,
-        cups: 0,
-        cupYears: []}, 
+        founded: 1926,
+        formerly: ["Chicago Black Hawks"],
+        cups: 6,
+        cupYears: [1934, 1938, 1961, 2010, 2013, 2015]
+      }, 
       "Coyotes": {        
-        city: "",
-        country: "",
+        city: "Arizona",
+        country: "United States",
         stadium: {
-          name: "",
-          city: "",
-          capacity: 0
+          name: "Arizona State University Arena",
+          city: "Tempe, Arizona",
+          capacity: 5000
         },
-        founded: 0,
+        founded: 1972,
+        formerly: ["Winnipeg Jets", "Phoenix Coyotes"],
         cups: 0,
-        cupYears: []}
+        cupYears: []
+      }
     },
 
     Pacific: {
