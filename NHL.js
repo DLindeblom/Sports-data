@@ -36,7 +36,7 @@ const NHL = [
     country: "United States",
     stadium: {
       name: "PPG Paints Arena",
-      city: "Pittsburgh, Pennsylvania",
+      location: "Pittsburgh, Pennsylvania",
       capacity: 19758
     },
     founded: 1967,
